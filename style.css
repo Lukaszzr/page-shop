@@ -95,7 +95,6 @@ body {
   justify-content: flex-end;
   padding: 0 15px;
   width: 33%;
-  /* max-width: 300px; */
 }
 .header__info {
   font-size: 22px;
@@ -299,7 +298,6 @@ body {
     position: relative;
     display: flex;
     align-items: center;
-
     padding: 0 15px;
   }
   .header__title-left {
@@ -331,8 +329,6 @@ body {
     align-items: flex-end;
     justify-content: flex-end;
     padding: 0 15px;
-    width: 60%;
-    max-width: 300px;
   }
   .header__info {
     padding-right: 0;
@@ -349,8 +345,6 @@ body {
     align-items: center;
     justify-content: center;
     padding: 0 15px;
-    width: 100%;
-    max-width: 500px;
   }
   .timer__digit {
     font-size: 31px;
