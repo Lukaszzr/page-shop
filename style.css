@@ -25,7 +25,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0 15px;
-  width: 100%;
+  width: 31%;
   max-width: 600px;
 }
 
@@ -94,7 +94,7 @@ body {
   align-items: flex-end;
   justify-content: flex-end;
   padding: 0 15px;
-  width: 100%;
+  width: 33%;
   /* max-width: 300px; */
 }
 .header__info {
@@ -118,7 +118,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0 15px;
-  width: 100%;
+  width: 33%;
   max-width: 500px;
 }
 .timer {
