@@ -331,7 +331,7 @@ body {
     align-items: flex-end;
     justify-content: flex-end;
     padding: 0 15px;
-    width: 100%;
+    width: 60%;
     max-width: 300px;
   }
   .header__info {
