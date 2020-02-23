@@ -16,8 +16,8 @@ body {
   align-items: center;
   justify-content: space-around;
   background-color: #ea2423;
-  min-height: 300px;
   height: auto;
+  padding: 20px;
 }
 .header__left {
   position: relative;
@@ -25,7 +25,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0 15px;
-  width: 31%;
+  width: 36%;
   max-width: 600px;
 }
 
@@ -45,10 +45,11 @@ body {
   position: absolute;
   top: 30%;
   font-size: 36px;
-  left: 50px;
+  left: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
 .header__title-day {
   display: block;
   color: white;
@@ -62,7 +63,8 @@ body {
   text-transform: uppercase;
   background-color: #000;
   color: #fff;
-  padding: 20px 25px;
+  padding: 20px 34px;
+  font-weight: 600;
 }
 
 .header__subtitle-day::after {
@@ -94,7 +96,7 @@ body {
   align-items: flex-end;
   justify-content: flex-end;
   padding: 0 15px;
-  width: 33%;
+  width: 25%;
 }
 .header__info {
   font-size: 22px;
@@ -251,8 +253,10 @@ body {
 .box__basket-img {
   padding-right: 10px;
 }
+.box__basket-shop {
+  font-size: 13px;
+}
 .box__cheap {
-  flex-grow: 1;
   font-size: 15px;
   color: #ff0000;
   border: 1px solid #ff0000;
@@ -300,22 +304,12 @@ body {
     align-items: center;
     padding: 0 15px;
   }
-  .header__title-left {
-    position: absolute;
-    top: 30%;
-    font-size: 36px;
-    left: 50px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
+
   .header__subtitle-day {
     position: absolute;
     top: 9px;
     right: -36px;
     font-size: 15px;
-    text-transform: uppercase;
-    background-color: #000;
-    color: #fff;
     padding: 20px 31px;
   }
   .header__img-car {
@@ -364,6 +358,7 @@ body {
   .header__right {
     flex-basis: auto;
     padding: 25px 15px;
+    width: 100%;
   }
   .header__title-left {
     top: 50%;
@@ -417,6 +412,9 @@ body {
   }
 }
 @media (max-width: 576px) {
+  .header {
+    padding: 0;
+  }
   .header__img-clock {
     width: 200px;
   }

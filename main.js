@@ -14,9 +14,9 @@ $(document).ready(function() {
         html += "<div class='box__top'>";
         html +=
           "<div class='box__basket'><img class='box__basket-img' src='basket.png'/>";
-        html += "<span class='box__basket-shop'>1</span></div>";
+        html += "<span class='box__basket-shop'>sztuk:1</span></div>";
         html +=
-          "<div class='box__cheap'>oszczednoci <span class='box__cash'>2000zl</span></div></div>";
+          "<div class='box__cheap'>oszczędzasz <span class='box__cash'> 2000zl</span></div></div>";
         html +=
           "<div class='box__middle'><img class='box__image' src='https://outletmeblowy.pl/environment/cache/images/300_300_productGfx_" +
           val.main_image +
