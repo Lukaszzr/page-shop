@@ -98,6 +98,7 @@ body {
   padding: 0 15px;
   width: 25%;
 }
+
 .header__info {
   font-size: 22px;
   color: #363337;
@@ -110,6 +111,7 @@ body {
   color: #ffef3a;
   font-weight: 300;
 }
+
 .header__title-middle span {
   font-size: 109px;
   line-height: 88px;
@@ -122,6 +124,7 @@ body {
   width: 33%;
   max-width: 500px;
 }
+
 .timer {
   padding: 35px 65px;
   border: 2px solid white;
@@ -144,6 +147,7 @@ body {
   font-weight: 600;
   position: relative;
 }
+
 .timer__digit::after {
   content: ":";
   display: block;
@@ -317,35 +321,17 @@ body {
     width: 80px;
     height: 80px;
   }
-  .header__middle {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
-    padding: 0 15px;
-  }
+
   .header__info {
     padding-right: 0;
   }
   .header__title-middle {
     font-size: 105px;
-    letter-spacing: -7px;
     line-height: 90px;
-    color: #ffef3a;
-    font-weight: 300;
   }
-  .header__right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 15px;
-  }
+
   .timer__digit {
     font-size: 31px;
-    color: white;
-    padding: 0 10px;
-    letter-spacing: -1px;
-    font-weight: 600;
     position: relative;
   }
 }
