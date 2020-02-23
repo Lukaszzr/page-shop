@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $.getJSON("/example.json", function(data) {
+  $.getJSON("example.json", function(data) {
     var item = data.list;
 
     console.log(item[0].main_image);
