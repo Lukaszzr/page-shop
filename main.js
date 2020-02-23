@@ -1,6 +1,6 @@
 $.getJSON("/example.json", function(data) {
   var item = data.list;
-  var item2 = item;
+
   console.log(item[0].main_image);
   console.log(item[0].price.gross.base);
   var html = "";
@@ -30,11 +30,11 @@ $.getJSON("/example.json", function(data) {
   });
 
   $(".main__content").html(html);
-});
 
-$(document).ready(function() {
   $(".main__content .box:lt(4)").show();
-
+  $("#view__all").click(function() {
+    $(".main__content .box").show();
+  });
   $("#view__two").click(function() {
     $(".main__content .box")
       .not(":lt(2)")
@@ -43,10 +43,7 @@ $(document).ready(function() {
   $("#view__four").click(function() {
     $(".main__content .box")
       .not(":lt(4)")
-      .hide();
-  });
-  $("#view__all").click(function() {
-    $(".main__content .box").show();
+      .show();
   });
 });
 $(".change__subtitle").click(function() {
