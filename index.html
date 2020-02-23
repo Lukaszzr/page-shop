@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="dupa"></div>
+    <div class="container-page">
+      <header class="header">
+        <div class="header__left">
+          <div class="header__img-wrap">
+            <img class="header__img-clock" src="clock.png" alt="clock" />
+            <h2 class="header__title-left">
+              gorący <span class="header__title-day">czwartek</span>
+            </h2>
+          </div>
+          <p class="header__subtitle-day">
+            właśnie <span class="header__subtitle-in">trwa !</span>
+          </p>
+          <img class="header__img-car" src="free-car.png" alt="car" />
+        </div>
+        <div class="header__middle">
+          <span class="header__info">RABATY NAWET DO</span>
+          <h1 class="header__title-middle">80 <span>%</span></h1>
+        </div>
+        <div class="header__right">
+          <div class="timer">
+            <div class="timer__title">Do końca pozostało:</div>
+            <div class="timer__wrap">
+              <div class="timer__day">
+                <span class="timer__digit">4 </span>
+                <p class="timer__name">dni</p>
+                <span></span>
+              </div>
+              <div class="timer__hour">
+                <span class="timer__digit">11</span>
+                <p class="timer__name">godz</p>
+                <span></span>
+              </div>
+              <div class="timer__minutes">
+                <span class="timer__digit">16</span>
+                <p class="timer__name">min</p>
+                <span></span>
+              </div>
+              <div class="timer__seconds">
+                <span class="timer__digit">42</span>
+                <p class="timer__name">sek</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="main">
+        <div class="main__header">
+          <div class="main__info">
+            <img src="clock-sm.png" alt="" />
+            <h3 class="main__info-title">
+              produkty na godzine<span class="main__info-hour"> 10:00</span>
+            </h3>
+          </div>
+          <div class="main__promo">
+            <span class="promo__mark">!</span>
+            <h3 class="promo__title">
+              Akcja “Gorący Czwartek” nie łączy się z innymi promocjami
+            </h3>
+          </div>
+        </div>
+        <div class="change__view">
+          <div class="change__title">Widok:</div>
+          <div id="view__all" class="change__border">
+            <div class="change__subtitle">all</div>
+          </div>
+          <div id="view__two" class="change__border">
+            <div class="change__subtitle">2</div>
+          </div>
+          <div id="view__four" class="change__border">
+            <div class="change__subtitle">4</div>
+          </div>
+        </div>
+        <div class="main__content">
+          <!-- dynamic hmtl add in jquery -->
+          <!-- <div class="box">
+            <div class="box__wrap">
+              <div class="box__top">
+                <div class="box__basket">
+                  <img class="box__basket-img" src="basket.png" alt="" />sztuk:
+                  <span class="box__basket-shop b1">1</span>
+                </div>
+                <div class="box__cheap">
+                  oszczędzasz <span class="box__cash">2000zł</span>
+                </div>
+              </div>
+              <div class="box__middle">
+                <img class="box__image" src="zdj1.jpg" alt="" />
+              </div>
+              <div class="box__down">
+                <h4 class="box__price">
+                  3690 zł <span class="box__subprice">5690 zł</span>
+                </h4>
+
+                <p class="box__info">
+                  Kanapa 3 firmy Kler kolekcja Canone W001
+                  <span class="box__info-team">Grupa Kler</span>
+                </p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </div>
+    <!-- jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
